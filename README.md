@@ -17,7 +17,7 @@ Audi Car Dataset to train machine learning model to make car price prediction.
 
 ## Pipeline Diagram
    
-   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment. To prevent overfitting and find the best param to minimize errors we can use GridSearchCV to do cross-validation with the total number of folds is 5.
+   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment by using ColumnTransformer allows us to selectively apply data preparation transforms like simple imputer, one-hot encoder and standard sclaer. To prevent overfitting and find the best param to minimize errors we can use GridSearchCV to do cross-validation with the total number of folds is 5.
    
         ![Diagram Pipeline](screenshot/pipeline_diagram.png)
    
