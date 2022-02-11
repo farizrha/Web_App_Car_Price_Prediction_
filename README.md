@@ -39,19 +39,37 @@ Audi Car Dataset to train machine learning model to make car price prediction.
 ## Dependencies
 * Can be seen [Here](requirements.txt)
 
+## Installation & How to Use
+
+    1. Install All Package Requirements
+        -`pip install -r requirements.txt`
+    
+    2. Make Migration of the Model
+        -`python manage.py makemigrations`
+        -`python manage.py migrate`
+        
+    3. Create Super User
+        -`python manage.py createsuperuser`
+    
+    4. Run the Web App
+        -`python manage.py createsuperuser`
+        
 ## Preview of the Web App
 
 ### Features
+* Login Session
 * CRUD Feature
 * Predict New Data
 * Export to (Json, CSV, XlS/Excel)
+* Django Rest Framework API
 
 ### Login
-
+   - To use the web app, it requires authentication of the user to be secure.
    ![Login](screenshot/login.png)
 
 
 ### Predict
+   - We can make predictions about the price of a car by including the features that characterize the car itself and store it to database.
 
    ![Insert Data](screenshot/predict_insert.png)
    
@@ -59,10 +77,16 @@ Audi Car Dataset to train machine learning model to make car price prediction.
    ![Result Insert](screenshot/predict_result_1.png)
 
 ### Result
-
+   - Prediction results can be seen through the data table below where we can perform CRUD operations and sort data.
+   
    ![Result Data](screenshot/predict_result_2.png)
    
-   
 ### Export
-
+   - We able to export data from database to various format like JSON, CSV or XlS/Excel
+   
    ![Export Data](screenshot/export_data.png)
+   
+### API
+   - We can serialize data from database to use as API using Django Rest Framework in JSON format.
+   
+   ![API Data](screenshot/api.png)
