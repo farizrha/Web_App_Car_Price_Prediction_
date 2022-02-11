@@ -47,7 +47,7 @@ Audi Car Dataset to train machine learning model to make car price prediction.
 
   3. Create Super User `python manage.py createsuperuser`
 
-  4. Run the Web App `python manage.py createsuperuser`
+  4. Run the Web App `python manage.py runserver`
         
 ## Preview of the Web App
 
