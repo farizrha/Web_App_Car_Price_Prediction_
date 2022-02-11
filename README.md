@@ -9,11 +9,11 @@ provides users with interactive U/I to make Audi Car price predictions.
 ## Machine Learning Details
  
   1. Type of Problem : Supervised Machine Learning (Regression Problem)
-  2. Model to Used   : Random Forest Regression
+  2. Model to Use   : Random Forest Regression
   
 ## Evaluation of the Model
 
-  1. Score Based on MAE :
+  1. Score Based on MAE : 
   
 
 ## Dataset for trained the model
