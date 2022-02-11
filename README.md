@@ -31,10 +31,10 @@ Audi Car Dataset to train machine learning model to make car price prediction.
 * Python 3.9.6
 * Django 3.2.11
 * DB SQLite
-* Bootstrap
+* Bootstrap Framework
 
 ## Dependencies
-* Can be seen in [Here](requirements.txt)
+* Can be seen [Here](requirements.txt)
 
 ## Preview of the Web App
 
