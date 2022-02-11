@@ -13,7 +13,9 @@ provides users with interactive U/I to make Audi Car price predictions.
 
 ## Pipeline Diagram
    
-   - Picture below shows the diagram of how the pipeline is created,
+   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment.
+   
+   ![Diagram Pipeline](screenshot/digram_pipeline.PNG)
    
   
 ## Evaluation of the Model
