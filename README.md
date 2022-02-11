@@ -22,6 +22,9 @@ Audi Car Dataset to train machine learning model to make car price prediction.
         ![Diagram Pipeline](screenshot/pipeline_diagram.png)
    
    Source: https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html
+   
+   - My code will use pickle module to dump the object of pipeline where the mode already trained will be serialized into a byte stream to store it in a file which will be use for django web app to predict new data.
+   My Code: [Here](jupyter-notebook/Audi_Car_Price_Prediction.ipynb)
   
 ## Evaluation of the Model
 
