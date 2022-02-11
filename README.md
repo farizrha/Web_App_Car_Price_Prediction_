@@ -11,50 +11,55 @@ provides users with interactive U/I to make Audi Car price predictions.
   - Type of Problem : Supervised Machine Learning (Regression Problem)
   - Model to Use   : Random Forest Regression
 
+## Dataset
+Dataset obtained from [Here](https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes) with title '100,000 UK Used Car Data set', in this project i just use
+Audi Car Dataset to train machine learning model to make car price prediction.
+
 ## Pipeline Diagram
    
-   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment.
+   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment. To prevent overfitting and find the best param to minimize errors we can use GridSearchCV to do cross-validation with the total number of folds is 5.
    
-        ![Diagram Pipeline](screenshot/diagram_pipeline.PNG)"
+        ![Diagram Pipeline](screenshot/diagram_pipeline.PNG)
    
    Source: https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html
   
 ## Evaluation of the Model
 
   - Score Based on Mean Absolute Error (MAE) : 1853.550
-  
 
-## Dataset for trained the model
-Dataset obtained from [Here](https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes) with title '100,000 UK Used Car Data set', in this project i just use
-Audi Car Dataset to train machine learning model to make car price prediction.
+## Web App Built with
+* Python 3.9.6
+* Django 3.2.11
+* DB SQLite
+* Bootstrap
 
-# Model to Use
+## Dependencies
+* Can be seen in [Here](requirements.txt)
 
-# Built with 💜
-* Python 3.7.5
-* Django 2.2.9 to 2.2.13 (security update)
+## Preview of the Web App
 
-# Dependencies
-* pillow
-* xlwt
-* mysqlclient (optional)
- 
-# License
-[MIT](https://github.com/HilmiZul/epkl3/blob/master/LICENSE)
+### Features
+* CRUD Feature
+* Predict New Data
+* Export to (Json, CSV, XlS/Excel)
 
----
-update April 27, 2021: re-design models. Happy Fasting 🌙
+### Login
 
-update January 22, 2020: change admin UI to Bootstrap 4.4.1. Happy New Year 🎉
+   ![Login](screenshot/login.png)
 
-update September 23, 2019: add "who is verified this [title and content](https://github.com/HilmiZul/epkl3/commit/ce582a9becb009e334c57446d087ffaa71ce0cfb)?"
 
-update September 19, 2019: fix duplicate file Bimbingan, fix bug URL
+### Predict
 
-update September 12, 2019
+   ![Insert Data](screenshot/predict_insert.png)
+   
+   
+   ![Result Insert](screenshot/predict_result_1.png)
 
-update September 1, 2019
+### Result
 
-update August 24, 2019
+   ![Result Data](screenshot/predict_result_2.png)
+   
+   
+### Export
 
-update Maret 2, 2019
+   ![Export Data](screenshot/export_data.png)
