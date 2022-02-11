@@ -8,12 +8,17 @@ provides users with interactive U/I to make Audi Car price predictions.
 
 ## Machine Learning Details
  
-  1. Type of Problem : Supervised Machine Learning (Regression Problem)
-  2. Model to Use   : Random Forest Regression
+  - Type of Problem : Supervised Machine Learning (Regression Problem)
+  - Model to Use   : Random Forest Regression
+
+## Pipeline Diagram
+   
+   - Picture below shows the diagram of how the pipeline is created,
+   
   
 ## Evaluation of the Model
 
-  1. Score Based on MAE : 
+  - Score Based on Mean Absolute Error (MAE) : 1853.550
   
 
 ## Dataset for trained the model
