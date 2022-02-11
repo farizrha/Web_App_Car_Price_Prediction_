@@ -17,11 +17,14 @@ Audi Car Dataset to train machine learning model to make car price prediction.
 
 ## Pipeline Diagram
    
-   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment. To prevent overfitting and find the best param to minimize errors we can use GridSearchCV to do cross-validation with the total number of folds is 5.
+   - Model development is built using pipelines to help automate machine learning workflows. The figure below shows a diagram of how the pipeline works, where numerical and categorical data have their own treatment by using ColumnTransformer allows us to selectively apply data preparation transforms like simple imputer, one-hot encoder and standard sclaer. To prevent overfitting and find the best param to minimize errors we can use GridSearchCV to do cross-validation with the total number of folds is 5.
    
-        ![Diagram Pipeline](screenshot/diagram_pipeline.PNG)
+        ![Diagram Pipeline](screenshot/pipeline_diagram.png)
    
    Source: https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html
+   
+   - My code will use pickle module to dump the object of pipeline where the mode already trained will be serialized into a byte stream to store it in a file which will be use for django web app to predict new data.
+   My Code: [Here](jupyter-notebook/Audi_Car_Price_Prediction.ipynb)
   
 ## Evaluation of the Model
 
