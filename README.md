@@ -1,22 +1,22 @@
 # Django Web Application Audi Car Price Prediction
 Django web application to predict Audi Car prices from Kaggle datasets using Random Forest Regression trained model.
 
-# About
+## About
 In a real-world scenario, a business owner selling a lot of used cars needs to know a fair price based on the characteristics of the car itself. To solve the problem, we must
 collect a lot of data to create a tool or model that is able to make price predictions based on previously collected data. That's why I decided to develop a Django web app for
 provides users with interactive U/I to make Audi Car price predictions.
 
-# Machine Learning Details
+## Machine Learning Details
  
   1. Type of Problem : Supervised Machine Learning (Regression Problem)
   2. Model to Used   : Random Forest Regression
   
-# Evaluation of the Model
+## Evaluation of the Model
 
   1. Score Based on MAE :
   
 
-# Dataset for trained the model
+## Dataset for trained the model
 Dataset obtained from [Here](https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes) with title '100,000 UK Used Car Data set', in this project i just use
 Audi Car Dataset to train machine learning model to make car price prediction.
 
